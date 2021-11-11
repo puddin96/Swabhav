@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{991DD11A-50D8-4E96-9BFF-F1CB76A35DC8}</ProjectGuid>
+    <ProjectGuid>{F42D7DF8-9EAA-46F3-919F-4553835636E9}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>SrpSolutionApp</RootNamespace>
-    <AssemblyName>SrpSolutionApp</AssemblyName>
+    <RootNamespace>OCPViolationApp</RootNamespace>
+    <AssemblyName>OCPViolationApp</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,9 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Model\Invoice.cs" />
-    <Compile Include="Model\InvoiceConsolePrinter.cs" />
-    <Compile Include="Model\InvoiceHtmlGenerator.cs" />
+    <Compile Include="Model\FestivalType.cs" />
+    <Compile Include="Model\FixedDeposit.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
